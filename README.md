@@ -20,11 +20,13 @@ Cmatric.cpp	: The defined routines are used to allocating memory for any variabl
 Component.cpp	: The defined Class is used to carry out a general heat exchanger component simulation based segment-by segment methodology for various flow configurations. 
 
 HXM.cpp	: The defined Class is used to reanalyze heat exchanger parameters and geometry size, segment size, characteristic length.
+
 Iofile.cpp	: The defined namespace is used to read input data file and generate out data file.
 
 Main.cpp	: This is a Main function to call other functions.
 
 Membrane.cpp	: The namespace of Membrane is defined and is used to calculate membrane mass transport analysis. 
+
 MoistAirVapProperty.cpp : The namespace of MoistAirVapProperty is defined and is used to calculate moist air and vapor properties, and their heat transfer coefficients. .
 
 SegmentSolve.cpp	: The defined Class is used to the heat and mass transport process in feed-side and permeate-side flow for each segment. The solving method is Gaussian elimination. 
