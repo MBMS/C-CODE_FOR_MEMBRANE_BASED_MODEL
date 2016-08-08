@@ -32,7 +32,7 @@ MoistAirVapProperty.cpp : The namespace of MoistAirVapProperty is defined and is
 SegmentSolve.cpp	: The defined Class is used to the heat and mass transport process in feed-side and permeate-side flow for each segment. The solving method is Gaussian elimination. 
 
 ##Input parameter introduction
-![](Picture1.png)
+![](Configure.png)
 
 length_dev			: length of device, m
 
