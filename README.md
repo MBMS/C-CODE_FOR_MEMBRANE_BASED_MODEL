@@ -1,7 +1,7 @@
 # C-CODE_FOR_MEMBRANE_BASED_MODEL
 Membrane-based dehumidification is currently being considered as a promising solution for the building application due to its low cost and very limited energy consumption. Developing a simple and efficient open-source code simulation tool is important for boosting the optimization and evaluation of such device in HVAC community. This paper reports a first-order physics based model which accounts for the fundamental heat and mass transfer of humid-air vapor at feed side to flow stream at permeate side. The current model comprises two membrane mass transfer submodels (i.e. microstructure model and performance map model); and it adopts a segment-by-segment methodology for discretizing heat and mass transfer governing equations. The model is capable of simulating both dehumidifiers and energy recovery ventilators with parallel-flow cross-flow, and counter-flow configurations. The model was validated with the measurements at appropriate device. The practices in dehumidification and energy recovery exchangers are also discussed. The model and open-source codes are expected to become a solid fundament for developing a more comprehensive and accurate membrane-based dehumidification in the future. 
 
-# readme for the folders of case and code
+# Readme for the folders of case and code
 The README.docx was written by Zhiming Gao (Phone: 865-946-1339, email: gaoz@ornl.gov) The detailed model are reported in the manuscript of “An Open-Source Code for Modeling and Simulation of Membrane-Based Dehumidification and Energy Recovery.”
 
 Document file
