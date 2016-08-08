@@ -1,0 +1,35 @@
+//input_data_for_Dais_large_scale_system
+//by Zhiming Gao
+
+length_dev			0.185
+deep_dev			0.185
+height_feedchanel		2.00e-3
+height_permeatechanel		2.00e-3
+thick_membrane			5.00e-6
+
+segment_length			21
+segment_deep			21
+layernum_membrane		230
+flowtype_device			3
+
+poreradius_membrane		1.25e-7
+porosity_membrane		0.55
+tortuosity_membrane		6.86
+thermocond_membrane		4.10e-4
+	
+mass_feedflow			3.51e-2
+temp_feedflow			308.15
+rh_feedflow			0.59
+press_feedflow			1.01325e5
+mass_permeateflow		3.51e-2
+temp_permeateflow		300.15
+rh_permeateflow			0.54
+press_permeateflow		1.01325e5
+
+flowcondition_permeate		1
+membrane_model			0
+
+htc_correction			1
+ftc_correction			1
+mt_impact_ht			1 
+memsurf_correction		1
