@@ -1,7 +1,7 @@
 # C-CODE_FOR_MEMBRANE_BASED_MODEL
 Membrane-based dehumidification is currently being considered as a promising solution for the building application due to its low cost and very limited energy consumption. Developing a simple and efficient open-source code simulation tool is important for boosting the optimization and evaluation of such device in HVAC community. This paper reports a first-order physics based model which accounts for the fundamental heat and mass transfer of humid-air vapor at feed side to flow stream at permeate side. The current model comprises two membrane mass transfer submodels (i.e. microstructure model and performance map model); and it adopts a segment-by-segment methodology for discretizing heat and mass transfer governing equations. The model is capable of simulating both dehumidifiers and energy recovery ventilators with parallel-flow cross-flow, and counter-flow configurations. The model was validated with the measurements at appropriate device. The practices in dehumidification and energy recovery exchangers are also discussed. The model and open-source codes are expected to become a solid fundament for developing a more comprehensive and accurate membrane-based dehumidification in the future. 
 
-# Readme for the folders of case and code
+# Readme for the folders of CODE_MODEL and CASES
 The README.docx was written by Zhiming Gao (Phone: 865-946-1339, email: gaoz@ornl.gov) The detailed model are reported in the manuscript of “An Open-Source Code for Modeling and Simulation of Membrane-Based Dehumidification and Energy Recovery.”
 
 ## Document file
@@ -11,7 +11,7 @@ In the folder of CASE, there are ten files which include one executable file and
 
 •	Membrane_Model.exe is an executable file which can be generated from the source codes in the folder of code_model. The used compiler is Microsoft Visual Studio Community 2015. The executable file can be used directly to study any cases with the format of the attached input files. 
 
-•	9 input files for case studies include a2a104_s3_cr.txt, a2a520_s3_cr.txt, a2v360_caseA_cr.txt, a2v360_caseB_cr.txt, a2v360_caseC_cr.txt, a2v360_caseD_cr.txt, a2v360_caseE_cr.txt, a2v360_caseF_cr.txt, a2a360_caseG_cr.txt. Here, a2a104_s3_cr.txt and a2a520_s3_cr.txt are the input files for the AIR-AIR cases, and the input file can used to repeat the results reported in Figures 8-10 of the manuscript; and a2v360_caseA_cr.txt et.al. are the input files for the AIR-vapor cases where the permeate side is under the condition of vacuum, and these input file can used to repeat the results reported in Figures 4-7 of the manuscript.
+•	Nine input files for case studies include a2a104_s3_cr.txt, a2a520_s3_cr.txt, a2v360_caseA_cr.txt, a2v360_caseB_cr.txt, a2v360_caseC_cr.txt, a2v360_caseD_cr.txt, a2v360_caseE_cr.txt, a2v360_caseF_cr.txt, a2a360_caseG_cr.txt. Here, a2a104_s3_cr.txt and a2a520_s3_cr.txt are the input files for the AIR-AIR cases, and the input file can used to repeat the results reported in Figures 8-10 of the manuscript; and a2v360_caseA_cr.txt et.al. are the input files for the AIR-vapor cases where the permeate side is under the condition of vacuum, and these input file can used to repeat the results reported in Figures 4-7 of the manuscript.
  
 ## Code function 
 
@@ -29,7 +29,7 @@ MoistAirVapProperty.cpp : The namespace of MoistAirVapProperty is defined and is
 
 SegmentSolve.cpp	: The defined Class is used to the heat and mass transport process in feed-side and permeate-side flow for each segment. The solving method is Gaussian elimination. 
 
-Input parameter introduction
+##Input parameter introduction
 ![](Picture1.png)
 
 length_dev			: length of device, m
