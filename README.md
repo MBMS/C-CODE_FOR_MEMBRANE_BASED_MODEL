@@ -25,7 +25,7 @@ In the folder of **CASE**, there are ten files which include one executable file
 
 # Input parameter introduction
 
-<img src="./Configure.png" width="335" height="466" />
+<img src="./configure.png" width="335" height="466" />
 
 | Parameter | Description |
 |--------------------------|-----------------------------------------------------------------------------------------------------|
@@ -39,12 +39,18 @@ In the folder of **CASE**, there are ten files which include one executable file
 | `segment_deep` | segment number of D-direction |
 | `layernum_membrane` | layer number of membrane |
 | `flowtype_device` | flow configuration1parallel uncounterflow; 2:parallel counterflow; 0 or 3 or othercrossflow |
-|  |  |
+
+
+| Parameter | Description |
+|--------------------------|-----------------------------------------------------------------------------------------------------|
 | `poreradius_membrane` | pore radius of membrane,m (need it if membrane_model=0) |
 | `porosity_membrane` | porosity of membrane,(-) (need it if membrane_model=0) |
 | `tortuosity_membrane` | tortuosity of membrane,(-) (need it if membrane_model=0) |
 | `thermocond_membrane` | membrane thermocondivity,kW/m-K(need it if membrane_model=0) |
-|  |  |
+
+
+| Parameter | Description |
+|--------------------------|-----------------------------------------------------------------------------------------------------|
 | `mass_feedflow` | mass flow rate @ feedair, kg/s |
 | `temp_feedflow` | feedair temp, K |
 | `rh_feedflow` | rh@feedair, (dimensionless) |
@@ -53,7 +59,10 @@ In the folder of **CASE**, there are ten files which include one executable file
 | `temp_permeateflow` | peameateflow temp, K |
 | `rh_permeateflow` | rh@peameateflow, (dimensionless) |
 | `press_permeateflow` | peameateflow pressure, Pa |
-|  |  |
+
+
+| Parameter | Description |
+|--------------------------|-----------------------------------------------------------------------------------------------------|
 | `flowcondition_permeate` | 0:A2V,vapor only in permeateflow; 1:A2A,air in permeateflow |
 | `membrane_model` | 0default model; 1Dais data; 2 constant value-model |
 | `htc_correction` | HTC correction (0-1), (-) |
