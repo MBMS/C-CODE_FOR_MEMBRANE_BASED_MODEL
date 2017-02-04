@@ -25,7 +25,7 @@ In the folder of **CASE**, there are ten files which include one executable file
 
 # Input parameter introduction
 
-<img src="./configure.png" width="335" height="466" />
+<img src="./Configure.png" width="335" height="466" />
 
 | Parameter | Description |
 |--------------------------|-----------------------------------------------------------------------------------------------------|
