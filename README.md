@@ -10,9 +10,6 @@ In the folder of **CASE**, there are ten files which include one executable file
 
 -   9 input files for case studies include `a2a104_s3_cr.txt`, `a2a520_s3_cr.txt`, `a2v360_caseA_cr.txt`, `a2v360_caseB_cr.txt`, `a2v360_caseC_cr.txt`, `a2v360_caseD_cr.txt`, `a2v360_caseE_cr.txt`, `a2v360_caseF_cr.txt`, `a2a360_caseG_cr.txt`. Here, `a2a104_s3_cr.txt` and `a2a520_s3_cr.txt` are the input files for the AIR-AIR cases, and the input file can used to repeat the results reported in __Figures 8-10__ of the manuscript; and `a2v360_caseA_cr.txt` et. al. are the input files for the AIR-vapor cases where the permeate side is under the condition of vacuum, and these input file can used to repeat the results reported in __Figures 4-7__ of the manuscript.
 
-***
-***
-
 # Code function
 
 | Code | Function |
@@ -28,7 +25,7 @@ In the folder of **CASE**, there are ten files which include one executable file
 
 # Input parameter introduction
 
-<img src="./media/image1.png" width="335" height="466" />
+<img src="./Configure.png" width="335" height="466" />
 
 | Parameter | Description |
 |--------------------------|-----------------------------------------------------------------------------------------------------|
