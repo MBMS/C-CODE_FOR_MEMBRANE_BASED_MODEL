@@ -1,4 +1,6 @@
 ﻿The README was written by Zhiming Gao (Phone 865-946-1339, email gaoz@ornl.gov) The detailed model are reported in the manuscript of “*Z. Gao, O. Abdelaziz, M. Qu. Modeling and Simulation of Membrane-Based Dehumidification and Energy RecoveryProcess. 2017 ASHRAE Winter Conference, Las Vegas, NV, Jan. 28 – Feb. 1, 2017.*”
+ 
+The usage of the open-source code is subject to MIT License.
 
 # Document file
 
